@@ -10,8 +10,8 @@ public class FarenheitToCelsius {
 		W = s.nextInt();
 		
 		if (S>=0 && S<=90 && 
-			E>=S && E<=900 && 
-			W>=0 && W<=80) {
+		    E>=S && E<=900 && 
+		    W>=0 && W<=80) {
 		int i = S;
 		while (i<=E) {
 			int celsius = ((i-32) * 5)/9;
