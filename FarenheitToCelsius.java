@@ -3,11 +3,11 @@ import java.util.Scanner;
 public class FarenheitToCelsius {
 
 	public static void main(String[] args) {
-		int S, E, W;
+		int S, E, W;  // S is starting Fahrenheit number for which Celsius will be converted
 		Scanner s = new Scanner(System.in);
 		S = s.nextInt();
-		E = s.nextInt();
-		W = s.nextInt();
+		E = s.nextInt(); // E is the end Fahrenheit number 
+		W = s.nextInt(); // step size for the next number
 		
 		if (S>=0 && S<=90 && 
 		    E>=S && E<=900 && 
